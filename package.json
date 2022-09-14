@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node src/server/index.ts"
+  },
+  "dependencies": {
+    "@fastify/middie": "^8.0.0",
+    "fastify": "^4.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-ssr": "^0.4.33",
+    "@types/node": "^18.7.17",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0"
+  }
+}
